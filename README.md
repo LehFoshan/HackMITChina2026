@@ -1,29 +1,39 @@
-# Mementor – Study Tool
+# StellaScholars
 
-Mementor is a study platform designed to help students prepare for **IGCSE and A-Level exams** using interactive quizzes and flashcards.
+StellaScholars is a GCSE revision platform built for UK students in Years 10 and 11. The idea is simple — revision is more effective when it doesn't feel like revision. So everything is built around a space progression system where students earn XP, level up through planets, and compete in monthly leagues as they work through their subjects.
 
-Built for HackMIT 2026.
+It covers the full range of GCSE subjects with lessons, quizzes, flashcards, and essay practice. Essays get AI-powered feedback. Progress is tracked across sessions and surfaced in a personal dashboard so students (and their parents) can see exactly where they're at.
 
-## Features
+---
 
-- Quiz-based learning
-- Flashcard revision
-- Interactive study interface
+## What's inside
 
-## Future Features
+**Learning content**
+Subjects are broken down into topics and lessons. Students can browse everything in one place, pick up where they left off, and get suggested topics based on their weakest areas.
 
-- AI explanations for incorrect answers
-- AI-generated practice questions
-- Personalized study recommendations
+**Quizzes**
+Multiple question types — multiple choice, short answer, multi-step problems, and full essay questions. Each type is weighted differently for XP.
 
-## Project Structure
+**Flashcards**
+A spaced repetition flashcard game for quick-fire revision of key terms and concepts.
 
-HackMIT/
+**Essay practice**
+Students write essays and get back structured AI feedback on their arguments, structure, and accuracy.
 
-frontend/ – Contains the main application (index.html)
+**Progression & gamification**
+XP earned from studying feeds into a planet rank system (Mercury up to Galaxy). Monthly leagues pit students against each other in competitive tiers, from Small Planets to Cosmic Titans.
 
-README.md – Project description
+**Leaderboards**
+Weekly, monthly, and all-time rankings so students can see how they stack up.
 
-## Technologies
+**Achievements**
+Badges unlocked for hitting study milestones — streaks, topic completions, quiz scores, and more.
 
-- HTML
+**Parent visibility**
+Parents can add their email to receive weekly summaries of their child's activity and progress.
+
+---
+
+## Status
+
+The full UI is complete across all pages with realistic mock data. Backend integration (user accounts, persistent progress, real AI essay scoring, and parent emails) is planned for upcoming phases.
