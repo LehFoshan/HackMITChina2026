@@ -26,10 +26,6 @@ Every major GCSE subject is in there, broken down into topics and subtopics. Eac
 
 Four question types: multiple choice, short answer, multi-step problems, and full essay questions. Each type earns a different amount of XP so harder questions are worth more. There's also a timed mock exam mode for when students want to simulate the real thing.
 
-**AI essay marking**
-
-This one's genuinely useful. You type your essay answer, hit submit, and within a few seconds you get a mark out of the maximum, two or three sentences of examiner-style feedback, and a list of specific things to improve. It uses the DeepSeek API under the hood and it's actually pretty good at mimicking how a GCSE marker thinks.
-
 **Flashcards**
 
 A spaced repetition flashcard game that tracks which cards you keep getting wrong and surfaces them more often. Nothing revolutionary, but it works.
@@ -71,11 +67,6 @@ npm run lint         # run the linter
 npm run type-check   # TypeScript check without building
 ```
 
-**AI essay marking**
-
-A default DeepSeek API key is bundled so the AI features work immediately without any setup. If you want to use your own key, you can enter it from your profile page inside the app and it'll override the default.
-
----
 
 ## Project structure
 
@@ -107,11 +98,10 @@ src/
 | `/subjects/:subjectId/:topicId` | Subtopics within a topic |
 | `/lesson/:lessonId` | Lesson content |
 | `/quiz/:quizId` | Quiz |
-| `/essay/:essayId` | Essay practice with AI marking |
+| `/essay/:essayId` | Essay practice |
 | `/flashcards/:setId` | Flashcard game |
 | `/mock-exam` | Timed mock exam |
 | `/past-papers` | Past paper browser |
-| `/achievements` | Your badge collection |
 | `/profile` | Stats, settings, parent email |
 
 ---
@@ -151,7 +141,7 @@ src/
 | Phase 1 — UI | Everything you see now, running on mock data | ✅ Done |
 | Phase 2 — Real accounts | Supabase auth, real login/signup, profiles in a database | Up next |
 | Phase 3 — Real progress | Quiz scores, XP, and study time saved properly and synced | Planned |
-| Phase 4 — Better AI | Essay marking via OpenAI through a Supabase Edge Function | Planned |
+| Phase 4 — AI | Essay marking via OpenAI through a Supabase Edge Function | Planned |
 | Phase 5 — Emails | Weekly parent reports and achievement notifications | Planned |
 
 ---
